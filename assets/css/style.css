@@ -255,9 +255,13 @@ body{
     header
     {
         width:100%;
+        position:static;
     }
     .mainDiv{
         width: 100%;
+        position:relative;
+        top:0px;
+        left:5px;
     }
     footer
     {
@@ -266,18 +270,25 @@ body{
     .firstHeading
     {
         position: relative;
-        left:190px;
+        left:160px;
         top:8px;
         font-size:27px;
     }
     .navTable{
         position: relative;
-        left:140px;
+        left:100px;
         top: 5px;
         border-spacing: 10px;
     }
     .navLink{
         font-size:20px;
+    }
+    .childDiv
+    {
+        position: absolute;
+        left:20px;
+        top:10px;
+        margin:10px;
     }
 
 }
