@@ -1,0 +1,251 @@
+body{
+    /* background-color: black; */
+}
+.mainDiv{
+     background-image:url("../images/div2Image.jpg") ; 
+    height: 600px;
+    position: relative; 
+    top:130px;
+    /* z-index: -1; */
+  }
+  header{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    margin:25px 5px;
+    height:85px;
+    width:1425px;
+    background-color:teal;
+  border:2px outset white;
+  }
+  .firstHeading{
+      color:white;
+      font-weight: bold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      position: absolute;
+      left:40px;
+      display: inline;
+    }
+    .navTable{
+        position: relative;
+        left:1000px;
+        top: 12px;
+        border-spacing: 10px;
+    }
+    .navTd{
+        text-align: center;
+        padding:5px;
+    }
+    .navLink{
+        color:white;
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 23px;
+    }
+    .childDiv{
+       /* background-color: white;  */
+        width:70%;
+        height:450px;
+        position: absolute;
+        top:70px;
+        left:200px;
+        margin:0 auto;
+        /* border: 3px solid white;  */
+        padding: 0 10px;
+        /* overflow: auto; */
+    }
+    .childDiv1{
+        /* background-color: white;  */
+         width:50%;
+         height:450px;
+         position: absolute;
+         top:30px;
+         left:350px;
+        margin:0 auto;
+          /* border: 3px solid white;   */
+         padding: 0 10px;
+         /* overflow: auto; */
+     }
+     .childDiv2{
+        /* background-color: white;  */
+         width:50%;
+         height:450px;
+         position: absolute;
+         top:30px;
+         left:350px;
+        margin:0 auto;
+           /* border: 3px solid white;    */
+         padding: 0 10px;
+         /* overflow: auto; */
+     }
+    .secondHeading{
+        color:white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding:10px 10px 20px 10px;
+        border-bottom: 3px solid white;
+        margin: 0 auto;
+
+    }
+    #mainImage{
+        /* position: absolute; */
+        float:left;
+        /* top:90px; */
+        /* left:20px; */
+        margin-right:40px;
+        margin-bottom: 40px;
+        
+    }
+     p{
+          position:absolute; 
+          top:90px;
+          left:20px;
+        /* float:left; */
+         color:white;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+         font-size: 20px;
+         padding-right:25px;
+         text-align: justify;
+     }
+     footer{
+         clear: both; 
+         position: relative; 
+         top:130px;
+         height:30px;
+         background-color: teal;
+         color:white;
+         text-align: center;
+        padding-top:25px;
+        padding-bottom: 25px;
+         border-top: 2px solid white;
+         z-index: -1;
+         /*Query :why vertical-align:middle not working?
+          can we use display:inline instead of using float:left?
+          sticky position
+          height:auto, what does it do
+          try sticky
+          try opacity
+          
+         */
+         
+     }
+     form{
+        position:absolute; 
+        top:90px;
+        left:20px;
+         color:white;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+         font-size: 20px;
+         font-size: 20px;
+         padding-right:25px;
+         text-align: justify;
+     }
+     
+     #input1
+     {
+         width:695px;
+         height: 20px;
+     }
+     #input2
+     {
+         width:695px;
+         height: 20px;
+     }
+     #input3
+     {
+         width:695px;
+         height: 100px;
+     }
+     #button
+     {
+         background-color: teal;
+         color: white;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 20px;
+     }
+     .tablePortfolio
+     {
+         position: absolute;
+         top:80px;
+         left: 10px;
+         width:712px;
+         height:100%;
+     }
+
+#techLink1
+{
+    position: absolute;
+    top:0;
+    width:200px;
+    height: 200px;
+   
+}
+
+#techLink2
+{
+    position: absolute;
+    top:0;
+    width:200px;
+    height: 200px;
+   
+}
+#techLink3
+{
+    position: absolute;
+    top:225px;
+    width:200px;
+    height: 200px;
+    
+}
+#techLink4
+{
+    position: absolute;
+    top:225px;
+    width:200px;
+    height: 200px;
+   
+}
+#techHeading1{
+    position: absolute;
+    top:130px;
+    left:3px;
+    padding-top:7px;
+    background-color: teal;
+    color:white;
+    text-align:center;
+    width:200px;
+    height: 35px;
+} 
+#techHeading2{
+    position: absolute;
+    top:130px;
+    left:358px;
+    padding-top:7px;
+    background-color: teal;
+    color:white;
+    text-align:center;
+    width:200px;
+    height: 35px;
+} 
+#techHeading3{
+    position: absolute;
+    top:357px;
+    left:3px;
+    padding-top:7px;
+    background-color: teal;
+    color:white;
+    text-align:center;
+    width:200px;
+    height: 35px;
+} 
+#techHeading4{
+    position: absolute;
+    top:357px;
+    left:358px;
+    padding-top:7px;
+    background-color: teal;
+    color:white;
+    text-align:center;
+    width:200px;
+    height: 35px;
+} 
