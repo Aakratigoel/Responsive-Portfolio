@@ -336,14 +336,14 @@ p{
     .firstHeading
     {
         position: relative;
-        left:400px; 
-        top:8px;
+        left:60px; 
+        top:30px;
         font-size:27px;
     }
     .navTable{
         position: relative;
-        left:350px; 
-        top: 5px;
+        left:640px; 
+        top:-10px;
         border-spacing: 10px;
     }
     .navLink{
