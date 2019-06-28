@@ -338,6 +338,17 @@
     {
         width:300%;
     }
+    .childDiv2
+    {
+        width:75%;
+        height:450px;
+        position: absolute;
+        top:70px;
+        left:80px;
+        margin:0 auto;
+        padding: 0 10px;
+
+    }
 }
 @media screen and (max-width:640px){
    
