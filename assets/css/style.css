@@ -307,12 +307,36 @@
         padding: 0 10px;
 
     }
+    
     #mainImage{
         width:260px;
          height:260px;
     }
     p{
      font-size: 20px;
+    }
+    .childDiv1
+    {
+        width:75%;
+        height:450px;
+        position: absolute;
+        top:70px;
+        left:80px;
+        margin:0 auto;
+        padding: 0 10px;
+
+    }
+    #input1
+    {
+        width:250%;
+    }
+    #input2
+    {
+        width:250%;
+    }
+    #input3
+    {
+        width:300%;
     }
 }
 @media screen and (max-width:640px){
