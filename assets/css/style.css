@@ -255,6 +255,66 @@
     width:200px;
     height: 35px;
 } 
+@media screen and (max-width:768px)
+{
+    header
+    {
+        
+        position:static;
+        width:99%;
+        
+        
+    }
+    .mainDiv{
+        
+        position:relative;
+        top:0px;
+        left:0.5%;
+        width:99.5%;
+        height:700px;  
+    }
+    footer
+    {
+        width: 99.5%;
+        top:10px;
+        left:0.5%;
+        
+    }
+    .firstHeading
+    {
+        position: relative;
+        left:5%;
+        top:30px;
+        font-size:27px;
+    }
+    .navTable{
+        position: relative;
+        left:60%;
+        top:-10px;
+        border-spacing: 10px;
+    }
+    .navLink{
+        font-size:20px;
+    }
+    .childDiv
+    {
+        width:75%;
+        height:450px;
+        position: absolute;
+        top:70px;
+        left:80px;
+        margin:0 auto;
+        padding: 0 10px;
+
+    }
+    #mainImage{
+        width:260px;
+         height:260px;
+    }
+    p{
+     font-size: 20px;
+    }
+}
 @media screen and (max-width:640px){
    
     header
